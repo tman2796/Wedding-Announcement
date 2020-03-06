@@ -1,0 +1,148 @@
+/* Navbar background color */
+.navbar-background-color {
+    background-image: linear-gradient(to bottom right, #550015, #8a2f46);
+}
+
+/* Navbar font color and family*/
+.navbar-text-color,
+ul li a.nav-link {
+    color: rgb(235, 224, 224);
+    font-family: PlayfairDisplay-Italic;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+ul li {
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+li.nav-item{
+    padding-bottom: 10px;
+}
+
+/* Navbar Hover*/
+.navbar-text-color:hover,
+ul li a.nav-link:hover,
+span.far:hover {
+    color: #746e69;
+}
+
+/* Heart Menu Icon Start*/
+.far {
+    font-weight: 900;
+    color: rgb(235, 224, 224);
+}
+
+body,
+html {
+    line-height: 0;
+    display: block;
+}
+
+/* Background behind main page pic */
+div.container-fluid {
+    background-color: #040222;
+    background-image: url("images/WA.jpg");
+    display: block;
+    /* margin: auto; */
+    padding: 0;
+}
+
+/* Main page pic */
+img.main-pic {
+    display: block;
+    margin: auto;
+    opacity: .65;
+    border-radius: 15px;
+    box-shadow: 20px 20px #040222;
+}
+
+@media screen and (max-width: 900px) {
+    img.main-pic {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img.main-pic {
+        width: 70%;
+    }
+}
+
+/* Countdown label days hours mins sec */
+div.countdown-label {
+    flex-grow: 1.5;
+    margin-top: 70px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #040222;
+
+}
+
+@media screen and (max-width: 320px) {
+    div.countdown-label-row {
+        width: max-content;
+        /* padding-left: 25px; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ul li {
+        padding-bottom: 15px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    div.countdown-label-row {
+        width: max-content;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    div.countdown-label-row {
+        width: max-content;
+    }
+}
+
+div.row {
+    margin: auto;
+    margin-left: 0;
+}
+
+div.countdown-header {
+    width: 100%;
+    /* height: 20%; */
+}
+
+div.countdown-content {
+    /* padding-bottom: 55%; */
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, #af3453, #550015);
+    height: 55px;
+}
+
+
+h4.modal-title {
+    font-family: Tangerine;
+    font-size: 48px;
+}
+
+.btn {
+    background-image: linear-gradient(to bottom right, #c20f3c, #ee93aa);
+    color: aliceblue;
+}
+
+h5{
+    font-size: 72px;
+}
+
+@media screen and (max-width: 414px) {
+    h5{
+        font-size: 50px;
+    }
+}

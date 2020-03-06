@@ -1,0 +1,137 @@
+/* Navbar background color */
+.navbar-background-color {
+    background-image: linear-gradient(to bottom right, #550015, #af3453);
+}
+
+/* Navbar font color and family*/
+.navbar-text-color,
+ul li a.nav-link {
+    color: rgb(235, 224, 224);
+    font-family: PlayfairDisplay-Italic;
+    font-size: 20px;
+}
+
+/* Navbar Hover*/
+.navbar-text-color:hover,
+ul li a.nav-link:hover,
+span.far:hover {
+    color: #746e69;
+}
+
+ul li {
+    padding-right: 15px;
+    /* padding-top: 10px; */
+}
+
+/* Heart Menu Icon Start*/
+.far {
+    font-weight: 900;
+    color: rgb(235, 224, 224);
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, #af3453, #550015);
+    height: 55px;
+}
+
+div.col-md-4 {
+    padding: 0;
+}
+
+div.jumbotron {
+    border-bottom-width: 15px;
+    width: 95%;
+    padding: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: .8;
+    /* background-image: linear-gradient(to bottom right, #af3453, #550015); */
+    color: #af3453;
+}
+
+.carousel .carousel-indicators li {
+    background-image: linear-gradient(to bottom right, #af3453, #550015);
+    /* size: 40px; */
+}
+
+
+p {
+    font-size: 36px;
+    color: black;
+}
+
+@media screen and (max-width: 414px) {
+    p {
+        font-size: 24px;
+    }
+}
+
+
+.h3 {
+    color: #550015;
+    font-size: 100px;
+    font-family: Tangerine;
+}
+
+/* 
+.btn {
+    color: black;
+} */
+
+h4.modal-title {
+    font-family: Tangerine;
+    font-size: 48px;
+}
+
+.h4,
+h4 {
+    font-size: 56px;
+    color: black;
+    /* text-decoration: underline; */
+}
+
+@media screen and (max-width: 1024px) {
+    h3.card-title {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h3.card-title {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .h4,
+    h4 {
+        font-size: 36px;
+    }
+
+    h3.card-title {
+        font-size: 30px
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h3.card-title {
+        font-size: 25px
+    }
+}
+
+.registry-header {
+    margin: auto;
+}
+
+
+.btn {
+    background-image: linear-gradient(to bottom right, #c20f3c, #ee93aa);
+    color: aliceblue;
+}
+
+.btn:hover {
+    color: black;
+}

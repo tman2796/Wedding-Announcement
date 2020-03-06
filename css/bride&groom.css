@@ -1,0 +1,248 @@
+/* Navbar background color */
+.navbar-background-color {
+    background-image: linear-gradient(to bottom right, #550015, #8a2f46);
+}
+
+/* Navbar font color and family*/
+.navbar-text-color,
+ul li a.nav-link {
+    color: rgb(235, 224, 224);
+    font-family: PlayfairDisplay-Italic;
+    font-size: 20px;
+}
+
+/* Navbar Hover*/
+.navbar-text-color:hover,
+ul li a.nav-link:hover,
+span.far:hover {
+    color: #746e69;
+}
+
+ul li {
+    padding-right: 15px;
+    /* padding-top: 10px; */
+}
+
+/* Heart Menu Icon Start*/
+.far {
+    font-weight: 900;
+    color: rgb(235, 224, 224);
+}
+
+div.col-with-groom {
+    margin-top: 10px;
+}
+
+div.col-with-bride {
+    margin-top: 10px;
+}
+
+.headshot-border {
+    background-image: url("../css/images/Bride_Groom_Backgroundjpg.jpg");
+}
+
+div img.groom-headshot {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+div img.bride-headshot {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+
+div.how-we-met {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+    div img.groom-headshot {
+        /* width: ; */
+    }
+}
+
+@media screen and (max-width: 375px) {
+    div.countdown-label-row {
+        /* width: max-content; */
+        /* padding-left: 25px; */
+    }
+}
+
+@media screen and (max-width: 414px) {
+    div.countdown-label-row {
+        /* width: max-content; */
+        /* padding-left: 25px; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.countdown-label-row {
+        /* width: max-content; */
+        /* padding-left: 25px; */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    div.countdown-label-row {
+        /* width: max-content; */
+        /* padding-left: 25px; */
+    }
+}
+
+div.background-container {
+    background-color: rgb(235, 224, 224);
+}
+
+div h1.date-we-started {
+    font-family: Tangerine;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    white-space: nowrap;
+    padding-top: 100%;
+    font-size: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+    div h1.date-we-started {
+        font-size: 75px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div h1.date-we-started {
+        font-size: 56px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    div h1.date-we-started {
+        font-size: 75px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    div h1.date-we-started {
+        font-size: 80px;
+        display: block;
+        padding-top: 20%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    div h1.date-we-started {
+        font-size: 65px;
+    }
+}
+
+h1.bride-label,
+h1.groom-label {
+    text-align: center;
+    font-family: Tangerine;
+    font-size: 58px;
+}
+
+/* Map iframe */
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+div.second-row {
+    margin-top: 20%;
+    padding-bottom: 7%;
+}
+
+.footer-container {
+    background-image: linear-gradient(to bottom right, #af3453, #550015);
+    height: 55px;
+}
+
+.left-icon {
+    /* transform: scaleX(-1); */
+    /* color: #040222; */
+    background-color: #550015;
+}
+
+.carousel-container {
+    padding-bottom: 25px;
+}
+
+div p.carousel-card-text {
+    font-size: 35px;
+}
+
+.card .card-body h4 {
+    font-size: 48px;
+    color: #550015;
+    font-family: Tangerine;
+}
+
+.card .card-body .card-text {
+    font-size: 40px;
+    font-family: Tangerine;
+    color: #040222;
+}
+
+.card .card-body .card-text .how-we-met-text {}
+
+h1 {
+    color: #550015
+}
+
+.right-icon {
+    transform: scaleX(-1);
+    background-color: #550015;
+}
+
+.carousel-multi-item .carousel-indicators .active {
+    background-color: #35020f;
+}
+
+.carousel-multi-item .carousel-indicators li {
+    background-color: #770521;
+}
+
+
+@media screen and (max-width: 1024px) {
+    p.card-text {
+        font-size: 50px;
+    }
+
+    div .col-md-4 {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div img.groom-headshot {
+        /* width: ; */
+    }
+}
+
+h4.modal-title {
+    font-family: Tangerine;
+    font-size: 48px;
+}
+
+.btn {
+    background-image: linear-gradient(to bottom right, #c20f3c, #ee93aa);
+    color: aliceblue;
+}

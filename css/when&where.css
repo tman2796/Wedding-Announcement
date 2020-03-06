@@ -1,0 +1,103 @@
+/* Navbar background color */
+.navbar-background-color {
+    background-image: linear-gradient(to bottom right, #550015, #8a2f46);
+}
+
+/* Navbar font color and family*/
+.navbar-text-color,
+ul li a.nav-link {
+    color: rgb(235, 224, 224);
+    font-family: PlayfairDisplay-Italic;
+    font-size: 20px;
+}
+
+ul li {
+    padding-right: 15px;
+    /* padding-top: 15px; */
+}
+
+/* Navbar Hover*/
+.navbar-text-color:hover,
+ul li a.nav-link:hover,
+span.far:hover {
+    color: #746e69;
+}
+
+/* Heart Menu Icon Start*/
+.far {
+    font-weight: 900;
+    color: rgb(235, 224, 224);
+}
+
+div.jumbotron-background {
+    background-image: url("../css/images/wedding-venue.jpg");
+}
+
+.card .card-image .jumbotron-background {
+    height: 100%;
+}
+
+footer {
+    background-image: linear-gradient(to bottom right, #af3453, #550015);
+    height: 55px;
+}
+
+.wedding-gradient {
+    background-image: linear-gradient(to bottom right, #9e1235, #b1576d);
+}
+
+h2 {
+    /* font-family: Tangerine; */
+}
+
+h4,
+h5 {
+    color: #550015;
+    font-size: 56px;
+    font-family: Tangerine;
+}
+
+h4,
+h5 {
+    background-color: #b1576d;
+    font-weight: 600;
+}
+
+h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.jumbotron {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.card-title {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 414PX) {
+
+    h4,
+    h5 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+}
+
+h6.modal-title {
+    font-family: Tangerine;
+    font-size: 48px;
+    background-color: white;
+    font-weight: 0;
+}
+
+
+.btn {
+    background-image: linear-gradient(to bottom right, #c20f3c, #ee93aa);
+    color: aliceblue;
+}
