@@ -19,5 +19,6 @@
   "homepage": "https://github.com/tman2796/Wedding-Announcement#readme",
   "dependencies": {
     "gh-pages": "^2.2.0"
-  }
+  },
+  "devDependencies": {}
 }
