@@ -29,7 +29,7 @@ ul li {
     color: rgb(235, 224, 224);
 }
 
-div.col-with-groom {
+/* div.col-with-groom {
     margin-top: 10px;
 }
 
@@ -39,7 +39,7 @@ div.col-with-bride {
 
 .headshot-border {
     /* background-image: url("../css/images/Bride_Groom_Backgroundjpg.jpg"); */
-}
+/* }
 
 div img.groom-headshot {
     border-radius: 50%;
@@ -53,47 +53,13 @@ div img.bride-headshot {
     width: 100%;
     height: 100%;
     padding: 5px;
-}
+} */
 
 
 div.how-we-met {
     display: block;
     margin: auto;
     text-align: center;
-}
-
-@media screen and (max-width: 320px) {
-    div img.groom-headshot {
-        /* width: ; */
-    }
-}
-
-@media screen and (max-width: 375px) {
-    div.countdown-label-row {
-        /* width: max-content; */
-        /* padding-left: 25px; */
-    }
-}
-
-@media screen and (max-width: 414px) {
-    div.countdown-label-row {
-        /* width: max-content; */
-        /* padding-left: 25px; */
-    }
-}
-
-@media screen and (max-width: 768px) {
-    div.countdown-label-row {
-        /* width: max-content; */
-        /* padding-left: 25px; */
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    div.countdown-label-row {
-        /* width: max-content; */
-        /* padding-left: 25px; */
-    }
 }
 
 div.background-container {
@@ -142,12 +108,12 @@ div h1.date-we-started {
     }
 }
 
-h1.bride-label,
+/* h1.bride-label,
 h1.groom-label {
     text-align: center;
     font-family: Tangerine;
     font-size: 58px;
-}
+} */
 
 /* Map iframe */
 .map-container {
